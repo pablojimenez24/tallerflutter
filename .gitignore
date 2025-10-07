@@ -1,0 +1,64 @@
+# Ignorar archivos comunes de todos los proyectos Flutter/Dart
+**/.dart_tool/
+**/.packages
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.idea/
+**/.vscode/
+**/.pub-cache/
+**/.pub/
+**/*.iml
+**/pubspec.lock
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS y macOS
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/App.framework
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/.symlinks/
+**/ios/.generated/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/.generated/
+
+# Web
+**/web/.dart_tool/
+**/web/build/
+
+# Windows
+**/windows/build/
+**/windows/runner/Debug/
+**/windows/runner/Release/
+**/windows/.vs/
+
+# Linux
+**/linux/build/
+**/linux/runner/Debug/
+**/linux/runner/Release/
+
+# Archivos del sistema operativo
+**/.DS_Store
+**/Thumbs.db
+**/*.log
+**/*.tmp
+**/*.swp
+**/*.swo
+
+
+# Plataformas nativas Flutter
+**/android/
+**/ios/
+**/windows/
+**/macos/
+**/linux/
+**/web/build/
